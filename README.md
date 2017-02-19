@@ -5,18 +5,18 @@ This is a copy from: http://www.npcglib.org/~stathis/blog/precompiled-openssl/
 
 Just Clone the repo version of your Visual Studio version.
 
-If you want use OpenSSL as Static Library: just link static library .lib with your project.
+If you want use OpenSSL as Static Library: just link static library files .lib with your project.
 
 openssl/lib dir:
 
-libcryptoMD.lib
-libcryptoMDd.lib
-libcryptoMT.lib
-libcryptoMTd.lib
-libsslMD.lib
-libsslMDd.lib
-libsslMT.lib
-libsslMTd.lib
+* libcryptoMD.lib
+* libcryptoMDd.lib
+* libcryptoMT.lib
+* libcryptoMTd.lib
+* libsslMD.lib
+* libsslMDd.lib
+* libsslMT.lib
+* libsslMTd.lib
 
 -----
 I compile many different versions of OpenSSL with MSVC. I have written a batch script to ease this process. To use it you basically need the source code, Cygwin and Microsoft Visual Studio. I use these builds to subsequently compile other libraries, e.g. Qt4 and Qt5. The main difference from the official release is that I patch the sources to allow compiling libraries with filenames that reflect the compile configuration, which makes it easier to use later. It is best to use the latest version always.
