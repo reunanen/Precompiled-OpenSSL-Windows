@@ -1,5 +1,5 @@
 # Precompiled-OpenSSL-Windows
-Precompiled OpenSSL
+Precompiled OpenSSL for Windows (Include Static and Dynamic Library).
 
 This is a copy from: http://www.npcglib.org/~stathis/blog/precompiled-openssl/
 
