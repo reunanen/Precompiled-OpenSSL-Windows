@@ -3,7 +3,7 @@ Precompiled OpenSSL for Windows (Include Static and Dynamic Library).
 
 This is a copy from: http://www.npcglib.org/~stathis/blog/precompiled-openssl/
 
-Just clone the repo version of your Visual Studio version.
+Just use the OpenSSL project of your Visual Studio version.
 
 If you want use OpenSSL as Static Library just link static library files (.lib) with your project.
 
