@@ -26,8 +26,8 @@ Headers PATH:
 * x64: openssl-X-vsX/include64
 
 Bins PATH:
-* x86: openssl-X-vsX/include
-* x64: openssl-X-vsX/include64
+* x86: openssl-X-vsX/bin
+* x64: openssl-X-vsX/bin64
 
 -----
 I compile many different versions of OpenSSL with MSVC. I have written a batch script to ease this process. To use it you basically need the source code, Cygwin and Microsoft Visual Studio. I use these builds to subsequently compile other libraries, e.g. Qt4 and Qt5. The main difference from the official release is that I patch the sources to allow compiling libraries with filenames that reflect the compile configuration, which makes it easier to use later. It is best to use the latest version always.
