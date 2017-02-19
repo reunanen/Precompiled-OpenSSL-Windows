@@ -7,7 +7,7 @@ Just Clone the repo version of your Visual Studio version.
 
 If you want use OpenSSL as Static Library just link static library files (.lib) with your project.
 
-openssl/lib dir:
+Library versions in lib/ dir:
 * libcryptoMD.lib
 * libcryptoMDd.lib
 * libcryptoMT.lib
@@ -21,11 +21,11 @@ Libs PATH:
 * x86: openssl-X-vsX/lib
 * x64: openssl-X-vsX/lib64
 
-Headers:
+Headers PATH:
 * x86: openssl-X-vsX/include
 * x64: openssl-X-vsX/include64
 
-bins:
+Bins PATH:
 * x86: openssl-X-vsX/include
 * x64: openssl-X-vsX/include64
 
